@@ -1,0 +1,55 @@
+body{
+background-color: gray;
+font-family: Times Newroman;
+font-size: 100%;
+color: black;
+margin: 0;
+padding: 0;
+}
+h1,h2,h3,h4{color: red;}
+
+.hero {
+		background-image: url(moshoeshoe.jpg);
+		background-size: cover;
+		background-position: center;
+		color: white;
+		padding: 100px;
+		text-align: center;
+	}
+	
+	}
+	.Traditional_Clothing_page
+.galler{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: space-between;
+	justify-content: center;
+	padding: 20px;
+	background-color: gray;
+	font-family: sans-serif;
+}
+.card{
+	width: 200px;
+	text-align: left;
+}
+
+.card img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	object-fit: cover;
+	box-shadow: 04px 8px rgba(0,0,0,0.2);
+	transform: transform 0.3s, box-shadow 0,3s;
+}
+.card img:hover{
+	transform: scale(1.05);
+	box-shadow: 08px 16px rgba(0,0,0,0.3);
+}
+.body2 
+flex-container{
+display: flex;
+flex-direction: space-between;
+flex-wrap: wrap;
+}
+
+
